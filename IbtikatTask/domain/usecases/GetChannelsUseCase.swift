@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import RxSwift
+class GetChannelsUseCase{
+    let repository:ICategoriesRepository
+    init(repository:ICategoriesRepository) {
+        self.repository = repository
+    }
+     func excute() -> Observable<[Channel]> {
+        return repository.getChannels()
+    }
+}

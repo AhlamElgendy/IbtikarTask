@@ -9,9 +9,14 @@ import UIKit
 
 class CategoriesdCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var categoryLbl:UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    func bind(category:CategoryItem){
+        self.categoryLbl.text = category.name
     }
 
 }

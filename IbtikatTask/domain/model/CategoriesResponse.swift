@@ -8,19 +8,19 @@
 import Foundation
 // MARK: - DataClass
 class CategoriesResponse: Codable {
-    var categories: [Category]?
+    var categories: [CategoryItem]?
 
     enum CodingKeys: String, CodingKey {
         case categories = "categories"
     }
 
-    init(categories: [Category]?) {
+    init(categories: [CategoryItem]?) {
         self.categories = categories
     }
 }
 
 // MARK: - Category
-class Category: Codable {
+class CategoryItem: Codable {
     var name: String?
 
     enum CodingKeys: String, CodingKey {

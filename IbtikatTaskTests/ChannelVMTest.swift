@@ -6,27 +6,30 @@
 //
 
 import XCTest
-
+import RxSwift
+import RxTest
+import RxBlocking
+@testable import IbtikatTask
 class ChannelVMTest: XCTestCase {
+    let getCategoriesUseCase = GetCategoriesUseCase(repository: MockRepository())
+    let channellsUseCas = GetChannelsUseCase(repository: MockRepository())
+    let newEpisodesUseCase = GetNewEpisodeUseCase(repository: MockRepository())
+    var viewModel:ChannelVM? = nil
+    var scheduler: TestScheduler!
+    var disposeBag: DisposeBag!
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    override func setUp() {
+            super.setUp()
+            self.scheduler = TestScheduler(initialClock: 0)
+            self.disposeBag = DisposeBag()
+            self.viewModel = ChannelVM(channelUseCase: channellsUseCas, categoriesUseCase: getCategoriesUseCase,newEpisodesUseCase: newEpisodesUseCase)
         }
+    
+    func testLoading(){
+        let sink = scheduler.createObserver(ChannelsVS.self)
+        self.viewModel?.vs.bind(to: sink).disposed(by: disposeBag)
+        self.viewModel?.getData()
+        scheduler.start()
+        XCTAssertEqual(sink.events, [.next(0,ChannelsVS(loading:true))])
     }
-
 }

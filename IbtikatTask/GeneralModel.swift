@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+protocol GeneralModel:Codable {
+    var State : Int! {get set}
+    var Message : String! {get set}
+}
+
+
+class GenericModel: GeneralModel {
+    
+    var State: Int!
+    var Message: String!
+    
+}

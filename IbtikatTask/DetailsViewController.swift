@@ -9,21 +9,30 @@ import UIKit
 
 class DetailsViewController: UIViewController {
 
+    
+    // MARK: - outlets
+    @IBOutlet weak var detailedImg:UIImageView!
+    @IBOutlet weak var detailedLbl:UILabel!
+
+    // MARK: - helper variables
+    var media:Media?
+    // MARK: - life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.detailedImg.kf.setImage(with: URL(string: media?.coverAsset?.url ?? ""))
+        self.detailedLbl.text = media?.title
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+   
+    
+    // MARK: - helper methods
+    
+    // MARK: - actions
+    @IBAction func closeBtnPressed(_sender:UIButton){
+        self.dismiss(animated: true, completion: nil)
     }
-    */
+    
 
 }

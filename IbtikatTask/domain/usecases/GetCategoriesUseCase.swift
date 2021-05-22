@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import RxSwift
+class GetCategoriesUseCase{
+    let repository:ICategoriesRepository
+    init(repository:ICategoriesRepository) {
+        self.repository = repository
+    }
+     func excute() -> Observable<[CategoryItem]> {
+        return repository.getCategories()
+    }
+}

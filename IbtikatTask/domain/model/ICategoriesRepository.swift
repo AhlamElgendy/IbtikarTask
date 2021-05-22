@@ -7,6 +7,7 @@
 import RxSwift
 import Foundation
 protocol ICategoriesRepository {
-    func getCategories() -> Observable<[Category]>
+    func getCategories() -> Observable<[CategoryItem]>
     func getChannels() -> Observable<[Channel]>
+    func getNewEpisodes() -> Observable<[Media]>
 }

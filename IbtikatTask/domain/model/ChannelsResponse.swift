@@ -6,12 +6,6 @@
 //
 
 import Foundation
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let response = try? newJSONDecoder().decode(Response.self, from: jsonData)
-
-import Foundation
 
 
 
@@ -31,12 +25,12 @@ class ChannelsResponse: Codable {
 // MARK: - Channel
 class Channel: Codable {
     var title: String?
-    var series: [Series]?
+    var series: [Media]?
     var mediaCount: Int?
-    var latestMedia: [LatestMedia]?
+    var latestMedia: [Media]?
     var id: String?
-    var iconAsset: IconAsset?
-    var coverAsset: ChannelCoverAsset?
+    var iconAsset: ImageAsset?
+    var coverAsset: ImageAsset?
     var slug: String?
 
     enum CodingKeys: String, CodingKey {
@@ -50,7 +44,7 @@ class Channel: Codable {
         case slug = "slug"
     }
 
-    init(title: String?, series: [Series]?, mediaCount: Int?, latestMedia: [LatestMedia]?, id: String?, iconAsset: IconAsset?, coverAsset: ChannelCoverAsset?, slug: String?) {
+    init(title: String?, series: [Media]?, mediaCount: Int?, latestMedia: [Media]?, id: String?, iconAsset: ImageAsset?, coverAsset: ImageAsset?, slug: String?) {
         self.title = title
         self.series = series
         self.mediaCount = mediaCount
@@ -62,21 +56,9 @@ class Channel: Codable {
     }
 }
 
-// MARK: - ChannelCoverAsset
-class ChannelCoverAsset: Codable {
-    var url: String?
-
-    enum CodingKeys: String, CodingKey {
-        case url = "url"
-    }
-
-    init(url: String?) {
-        self.url = url
-    }
-}
 
 // MARK: - IconAsset
-class IconAsset: Codable {
+class ImageAsset: Codable {
     var thumbnailUrl: String?
     var url: String?
 
@@ -92,52 +74,29 @@ class IconAsset: Codable {
 }
 
 // MARK: - LatestMedia
-class LatestMedia: Codable {
+
+
+
+// MARK: - Series
+class Media: Codable {
     var type: String?
     var title: String?
-    var coverAsset: LatestMediaCoverAsset?
+    var coverAsset: ImageAsset?
+    var id: String?
+    var channel:Channel?
 
     enum CodingKeys: String, CodingKey {
         case type = "type"
         case title = "title"
         case coverAsset = "coverAsset"
-    }
-
-    init(type: String?, title: String?, coverAsset: LatestMediaCoverAsset?) {
-        self.type = type
-        self.title = title
-        self.coverAsset = coverAsset
-    }
-}
-
-// MARK: - LatestMediaCoverAsset
-class LatestMediaCoverAsset: Codable {
-    var url: String?
-
-    enum CodingKeys: String, CodingKey {
-        case url = "url"
-    }
-
-    init(url: String?) {
-        self.url = url
-    }
-}
-
-// MARK: - Series
-class Series: Codable {
-    var title: String?
-    var coverAsset: ChannelCoverAsset?
-    var id: String?
-
-    enum CodingKeys: String, CodingKey {
-        case title = "title"
-        case coverAsset = "coverAsset"
         case id = "id"
+        case channel = "channel"
     }
 
-    init(title: String?, coverAsset: ChannelCoverAsset?, id: String?) {
+    init(title: String?, coverAsset: ImageAsset?, id: String?,channel:Channel?) {
         self.title = title
         self.coverAsset = coverAsset
         self.id = id
+        self.channel = channel
     }
 }

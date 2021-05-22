@@ -3,18 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C185D31265857FB00D11920 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C185D30265857FB00D11920 /* MockRepository.swift */; };
+		0C185D39265859D600D11920 /* ChannelVMTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C185D38265859D600D11920 /* ChannelVMTest.swift */; };
+		0C68276D2656F8BF00EE1946 /* NewEpisodeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C68276B2656F8BF00EE1946 /* NewEpisodeCollectionCell.swift */; };
+		0C68276E2656F8BF00EE1946 /* NewEpisodeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C68276C2656F8BF00EE1946 /* NewEpisodeCollectionCell.xib */; };
 		0CAFF866265590E300010F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF865265590E300010F91 /* AppDelegate.swift */; };
 		0CAFF868265590E300010F91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF867265590E300010F91 /* SceneDelegate.swift */; };
-		0CAFF86A265590E300010F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF869265590E300010F91 /* ViewController.swift */; };
+		0CAFF86A265590E300010F91 /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF869265590E300010F91 /* ChannelsViewController.swift */; };
 		0CAFF86D265590E300010F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFF86B265590E300010F91 /* Main.storyboard */; };
 		0CAFF86F265590E400010F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFF86E265590E400010F91 /* Assets.xcassets */; };
 		0CAFF872265590E400010F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFF870265590E400010F91 /* LaunchScreen.storyboard */; };
 		0CAFF87D265590E500010F91 /* IbtikatTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF87C265590E500010F91 /* IbtikatTaskTests.swift */; };
 		0CAFF888265590E500010F91 /* IbtikatTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF887265590E500010F91 /* IbtikatTaskUITests.swift */; };
+		0CAFF8BF2655960C00010F91 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF8BC2655960C00010F91 /* ServiceLayer.swift */; };
+		0CAFF8C02655960C00010F91 /* NetowrkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF8BD2655960C00010F91 /* NetowrkHelper.swift */; };
+		0CAFF8C12655960C00010F91 /* BackEndServant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF8BE2655960C00010F91 /* BackEndServant.swift */; };
+		0CAFF8C626559DE600010F91 /* GeneralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF8C526559DE600010F91 /* GeneralModel.swift */; };
+		0CB29A46265720F900833570 /* CourseDesignCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A44265720F900833570 /* CourseDesignCollectionViewCell.swift */; };
+		0CB29A47265720F900833570 /* CourseDesignCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB29A45265720F900833570 /* CourseDesignCollectionViewCell.xib */; };
+		0CB29A5126572E3B00833570 /* CategoriesdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A4F26572E3B00833570 /* CategoriesdCollectionViewCell.swift */; };
+		0CB29A5226572E3B00833570 /* CategoriesdCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB29A5026572E3B00833570 /* CategoriesdCollectionViewCell.xib */; };
+		0CB29A5C2657417000833570 /* CategoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A5B2657417000833570 /* CategoriesRepository.swift */; };
+		0CB29A64265741C900833570 /* ICategoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A63265741C900833570 /* ICategoriesRepository.swift */; };
+		0CB29A69265743A400833570 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A68265743A400833570 /* Response.swift */; };
+		0CB29A6E2657441C00833570 /* CategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A6D2657441C00833570 /* CategoriesResponse.swift */; };
+		0CB29A732657451F00833570 /* CategoriesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A722657451F00833570 /* CategoriesDataSource.swift */; };
+		0CB29A782657495300833570 /* ChannelsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A772657495300833570 /* ChannelsResponse.swift */; };
+		0CB29A7F26574C9D00833570 /* GetChannelsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A7E26574C9D00833570 /* GetChannelsUseCase.swift */; };
+		0CB29A8426574FDE00833570 /* GetCategoriesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A8326574FDE00833570 /* GetCategoriesUseCase.swift */; };
+		0CB29A8A2657508300833570 /* ChannelVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A892657508300833570 /* ChannelVM.swift */; };
+		0CB29A9D2657AB2B00833570 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29A9C2657AB2B00833570 /* DI.swift */; };
+		0CB29AA22657C86800833570 /* NewEpisodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29AA12657C86800833570 /* NewEpisodeResponse.swift */; };
+		0CB29AA72657CA1000833570 /* GetNewEpisodeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29AA62657CA1000833570 /* GetNewEpisodeUseCase.swift */; };
+		0CB29AAC265824D400833570 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB29AAB265824D400833570 /* DetailsViewController.swift */; };
+		0CCA54AB2657048A00B11B94 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA54AA2657048A00B11B94 /* Extention.swift */; };
+		0CCA54B226570D1400B11B94 /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA54B026570D1400B11B94 /* ChannelTableViewCell.swift */; };
+		0CCA54B326570D1400B11B94 /* ChannelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA54B126570D1400B11B94 /* ChannelTableViewCell.xib */; };
+		93E27A278219D88140FF5BB2 /* Pods_IbtikatTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828CBF7F40F71944F9796309 /* Pods_IbtikatTask.framework */; };
+		A46C8B0E24282BDDFC871B13 /* Pods_IbtikatTask_IbtikatTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D45C57CA9380C71748A5EF /* Pods_IbtikatTask_IbtikatTaskUITests.framework */; };
+		B5A28B9AF39F277C8A2E318F /* Pods_IbtikatTask_IbtikatTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFA5B95A4B890A101D82A7E /* Pods_IbtikatTask_IbtikatTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +66,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004E1AD62271FE40F87D8118 /* Pods-IbtikatTask-IbtikatTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTask-IbtikatTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-IbtikatTask-IbtikatTaskTests/Pods-IbtikatTask-IbtikatTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C185D30265857FB00D11920 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
+		0C185D38265859D600D11920 /* ChannelVMTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVMTest.swift; sourceTree = "<group>"; };
+		0C68276B2656F8BF00EE1946 /* NewEpisodeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEpisodeCollectionCell.swift; sourceTree = "<group>"; };
+		0C68276C2656F8BF00EE1946 /* NewEpisodeCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewEpisodeCollectionCell.xib; sourceTree = "<group>"; };
 		0CAFF862265590E300010F91 /* IbtikatTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IbtikatTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAFF865265590E300010F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CAFF867265590E300010F91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CAFF869265590E300010F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CAFF869265590E300010F91 /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
 		0CAFF86C265590E300010F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CAFF86E265590E400010F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CAFF871265590E400010F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +85,40 @@
 		0CAFF883265590E500010F91 /* IbtikatTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbtikatTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAFF887265590E500010F91 /* IbtikatTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbtikatTaskUITests.swift; sourceTree = "<group>"; };
 		0CAFF889265590E500010F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CAFF8BC2655960C00010F91 /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		0CAFF8BD2655960C00010F91 /* NetowrkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetowrkHelper.swift; sourceTree = "<group>"; };
+		0CAFF8BE2655960C00010F91 /* BackEndServant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEndServant.swift; sourceTree = "<group>"; };
+		0CAFF8C526559DE600010F91 /* GeneralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralModel.swift; sourceTree = "<group>"; };
+		0CB29A44265720F900833570 /* CourseDesignCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDesignCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CB29A45265720F900833570 /* CourseDesignCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDesignCollectionViewCell.xib; sourceTree = "<group>"; };
+		0CB29A4F26572E3B00833570 /* CategoriesdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesdCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CB29A5026572E3B00833570 /* CategoriesdCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesdCollectionViewCell.xib; sourceTree = "<group>"; };
+		0CB29A5B2657417000833570 /* CategoriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRepository.swift; sourceTree = "<group>"; };
+		0CB29A63265741C900833570 /* ICategoriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICategoriesRepository.swift; sourceTree = "<group>"; };
+		0CB29A68265743A400833570 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		0CB29A6D2657441C00833570 /* CategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesResponse.swift; sourceTree = "<group>"; };
+		0CB29A722657451F00833570 /* CategoriesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDataSource.swift; sourceTree = "<group>"; };
+		0CB29A772657495300833570 /* ChannelsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsResponse.swift; sourceTree = "<group>"; };
+		0CB29A7E26574C9D00833570 /* GetChannelsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChannelsUseCase.swift; sourceTree = "<group>"; };
+		0CB29A8326574FDE00833570 /* GetCategoriesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoriesUseCase.swift; sourceTree = "<group>"; };
+		0CB29A892657508300833570 /* ChannelVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVM.swift; sourceTree = "<group>"; };
+		0CB29A9C2657AB2B00833570 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
+		0CB29AA12657C86800833570 /* NewEpisodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEpisodeResponse.swift; sourceTree = "<group>"; };
+		0CB29AA62657CA1000833570 /* GetNewEpisodeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNewEpisodeUseCase.swift; sourceTree = "<group>"; };
+		0CB29AAB265824D400833570 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0CCA54AA2657048A00B11B94 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		0CCA54B026570D1400B11B94 /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		0CCA54B126570D1400B11B94 /* ChannelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelTableViewCell.xib; sourceTree = "<group>"; };
+		2D1CFD64FBBA1536A554A889 /* Pods-IbtikatTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTask.release.xcconfig"; path = "Target Support Files/Pods-IbtikatTask/Pods-IbtikatTask.release.xcconfig"; sourceTree = "<group>"; };
+		3BFA5B95A4B890A101D82A7E /* Pods_IbtikatTask_IbtikatTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbtikatTask_IbtikatTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B16FB7A8D82A4BD0E084B98 /* Pods-IbtikatTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTaskTests.release.xcconfig"; path = "Target Support Files/Pods-IbtikatTaskTests/Pods-IbtikatTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		7867D57617AB8D64DA415C6D /* Pods-IbtikatTask-IbtikatTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTask-IbtikatTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-IbtikatTask-IbtikatTaskUITests/Pods-IbtikatTask-IbtikatTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		828CBF7F40F71944F9796309 /* Pods_IbtikatTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbtikatTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC21BD04B1A60D76D777FFFD /* Pods-IbtikatTask-IbtikatTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTask-IbtikatTaskTests.release.xcconfig"; path = "Target Support Files/Pods-IbtikatTask-IbtikatTaskTests/Pods-IbtikatTask-IbtikatTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6D45C57CA9380C71748A5EF /* Pods_IbtikatTask_IbtikatTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IbtikatTask_IbtikatTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DC380DF557FAE102D5A97F /* Pods-IbtikatTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTask.debug.xcconfig"; path = "Target Support Files/Pods-IbtikatTask/Pods-IbtikatTask.debug.xcconfig"; sourceTree = "<group>"; };
+		E110DE65355F4DED913E8372 /* Pods-IbtikatTask-IbtikatTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTask-IbtikatTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-IbtikatTask-IbtikatTaskUITests/Pods-IbtikatTask-IbtikatTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5885B631B12106AF82A2B9F /* Pods-IbtikatTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IbtikatTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-IbtikatTaskTests/Pods-IbtikatTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E27A278219D88140FF5BB2 /* Pods_IbtikatTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A28B9AF39F277C8A2E318F /* Pods_IbtikatTask_IbtikatTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +142,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46C8B0E24282BDDFC871B13 /* Pods_IbtikatTask_IbtikatTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C68276A2656F87D00EE1946 /* NewEpisodeCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				0C68276B2656F8BF00EE1946 /* NewEpisodeCollectionCell.swift */,
+				0C68276C2656F8BF00EE1946 /* NewEpisodeCollectionCell.xib */,
+			);
+			path = NewEpisodeCollectionCell;
+			sourceTree = "<group>";
+		};
 		0CAFF859265590E300010F91 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +165,8 @@
 				0CAFF87B265590E500010F91 /* IbtikatTaskTests */,
 				0CAFF886265590E500010F91 /* IbtikatTaskUITests */,
 				0CAFF863265590E300010F91 /* Products */,
+				3AD27229AE56A61ACED58539 /* Pods */,
+				854FC08E18784FEB66C1E4D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +183,24 @@
 		0CAFF864265590E300010F91 /* IbtikatTask */ = {
 			isa = PBXGroup;
 			children = (
+				0CB29A882657505C00833570 /* presentation */,
+				0CB29A5A265740E400833570 /* domain */,
+				0CB29A59265740D700833570 /* data */,
+				0CB29A4E26572E1B00833570 /* CategoriesdCollectionViewCell */,
+				0CB29A43265720DF00833570 /* CourseDesignCollectionViewCell */,
+				0CCA54AF26570CDC00B11B94 /* ChannelTableViewCell */,
+				0CCA54AA2657048A00B11B94 /* Extention.swift */,
+				0C68276A2656F87D00EE1946 /* NewEpisodeCollectionCell */,
+				0CAFF8BB2655960C00010F91 /* NetworkAccessLayer */,
 				0CAFF865265590E300010F91 /* AppDelegate.swift */,
 				0CAFF867265590E300010F91 /* SceneDelegate.swift */,
-				0CAFF869265590E300010F91 /* ViewController.swift */,
+				0CAFF869265590E300010F91 /* ChannelsViewController.swift */,
 				0CAFF86B265590E300010F91 /* Main.storyboard */,
 				0CAFF86E265590E400010F91 /* Assets.xcassets */,
 				0CAFF870265590E400010F91 /* LaunchScreen.storyboard */,
 				0CAFF873265590E400010F91 /* Info.plist */,
+				0CAFF8C526559DE600010F91 /* GeneralModel.swift */,
+				0CB29AAB265824D400833570 /* DetailsViewController.swift */,
 			);
 			path = IbtikatTask;
 			sourceTree = "<group>";
@@ -115,6 +210,8 @@
 			children = (
 				0CAFF87C265590E500010F91 /* IbtikatTaskTests.swift */,
 				0CAFF87E265590E500010F91 /* Info.plist */,
+				0C185D30265857FB00D11920 /* MockRepository.swift */,
+				0C185D38265859D600D11920 /* ChannelVMTest.swift */,
 			);
 			path = IbtikatTaskTests;
 			sourceTree = "<group>";
@@ -128,6 +225,117 @@
 			path = IbtikatTaskUITests;
 			sourceTree = "<group>";
 		};
+		0CAFF8BB2655960C00010F91 /* NetworkAccessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0CAFF8BC2655960C00010F91 /* ServiceLayer.swift */,
+				0CAFF8BD2655960C00010F91 /* NetowrkHelper.swift */,
+				0CAFF8BE2655960C00010F91 /* BackEndServant.swift */,
+			);
+			path = NetworkAccessLayer;
+			sourceTree = "<group>";
+		};
+		0CB29A43265720DF00833570 /* CourseDesignCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0CB29A44265720F900833570 /* CourseDesignCollectionViewCell.swift */,
+				0CB29A45265720F900833570 /* CourseDesignCollectionViewCell.xib */,
+			);
+			path = CourseDesignCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		0CB29A4E26572E1B00833570 /* CategoriesdCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0CB29A4F26572E3B00833570 /* CategoriesdCollectionViewCell.swift */,
+				0CB29A5026572E3B00833570 /* CategoriesdCollectionViewCell.xib */,
+			);
+			path = CategoriesdCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		0CB29A59265740D700833570 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0CB29A5B2657417000833570 /* CategoriesRepository.swift */,
+				0CB29A722657451F00833570 /* CategoriesDataSource.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		0CB29A5A265740E400833570 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				0CB29A7D26574C8500833570 /* usecases */,
+				0CB29A7C26574C6E00833570 /* model */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		0CB29A7C26574C6E00833570 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0CB29A63265741C900833570 /* ICategoriesRepository.swift */,
+				0CB29A68265743A400833570 /* Response.swift */,
+				0CB29A6D2657441C00833570 /* CategoriesResponse.swift */,
+				0CB29A772657495300833570 /* ChannelsResponse.swift */,
+				0CB29AA12657C86800833570 /* NewEpisodeResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0CB29A7D26574C8500833570 /* usecases */ = {
+			isa = PBXGroup;
+			children = (
+				0CB29A7E26574C9D00833570 /* GetChannelsUseCase.swift */,
+				0CB29A8326574FDE00833570 /* GetCategoriesUseCase.swift */,
+				0CB29AA62657CA1000833570 /* GetNewEpisodeUseCase.swift */,
+			);
+			path = usecases;
+			sourceTree = "<group>";
+		};
+		0CB29A882657505C00833570 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0CB29A892657508300833570 /* ChannelVM.swift */,
+				0CB29A9C2657AB2B00833570 /* DI.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		0CCA54AF26570CDC00B11B94 /* ChannelTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0CCA54B026570D1400B11B94 /* ChannelTableViewCell.swift */,
+				0CCA54B126570D1400B11B94 /* ChannelTableViewCell.xib */,
+			);
+			path = ChannelTableViewCell;
+			sourceTree = "<group>";
+		};
+		3AD27229AE56A61ACED58539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7DC380DF557FAE102D5A97F /* Pods-IbtikatTask.debug.xcconfig */,
+				2D1CFD64FBBA1536A554A889 /* Pods-IbtikatTask.release.xcconfig */,
+				7867D57617AB8D64DA415C6D /* Pods-IbtikatTask-IbtikatTaskUITests.debug.xcconfig */,
+				E110DE65355F4DED913E8372 /* Pods-IbtikatTask-IbtikatTaskUITests.release.xcconfig */,
+				E5885B631B12106AF82A2B9F /* Pods-IbtikatTaskTests.debug.xcconfig */,
+				5B16FB7A8D82A4BD0E084B98 /* Pods-IbtikatTaskTests.release.xcconfig */,
+				004E1AD62271FE40F87D8118 /* Pods-IbtikatTask-IbtikatTaskTests.debug.xcconfig */,
+				AC21BD04B1A60D76D777FFFD /* Pods-IbtikatTask-IbtikatTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		854FC08E18784FEB66C1E4D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828CBF7F40F71944F9796309 /* Pods_IbtikatTask.framework */,
+				B6D45C57CA9380C71748A5EF /* Pods_IbtikatTask_IbtikatTaskUITests.framework */,
+				3BFA5B95A4B890A101D82A7E /* Pods_IbtikatTask_IbtikatTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CAFF88C265590E500010F91 /* Build configuration list for PBXNativeTarget "IbtikatTask" */;
 			buildPhases = (
+				4D1B5B067DFA542D0562CA6D /* [CP] Check Pods Manifest.lock */,
 				0CAFF85E265590E300010F91 /* Sources */,
 				0CAFF85F265590E300010F91 /* Frameworks */,
 				0CAFF860265590E300010F91 /* Resources */,
+				2C0611EFF74808E5569B9F00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +362,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CAFF88F265590E500010F91 /* Build configuration list for PBXNativeTarget "IbtikatTaskTests" */;
 			buildPhases = (
+				848B53654E5FBDF7ECA06F0B /* [CP] Check Pods Manifest.lock */,
 				0CAFF874265590E500010F91 /* Sources */,
 				0CAFF875265590E500010F91 /* Frameworks */,
 				0CAFF876265590E500010F91 /* Resources */,
+				DAD1594CB19AFA7E3A00CD77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CAFF892265590E500010F91 /* Build configuration list for PBXNativeTarget "IbtikatTaskUITests" */;
 			buildPhases = (
+				94E45E0557A6E73F959D82CE /* [CP] Check Pods Manifest.lock */,
 				0CAFF87F265590E500010F91 /* Sources */,
 				0CAFF880265590E500010F91 /* Frameworks */,
 				0CAFF881265590E500010F91 /* Resources */,
+				05E84C5D0A776C63A6D6BF1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +445,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCA54B326570D1400B11B94 /* ChannelTableViewCell.xib in Resources */,
+				0C68276E2656F8BF00EE1946 /* NewEpisodeCollectionCell.xib in Resources */,
 				0CAFF872265590E400010F91 /* LaunchScreen.storyboard in Resources */,
+				0CB29A47265720F900833570 /* CourseDesignCollectionViewCell.xib in Resources */,
 				0CAFF86F265590E400010F91 /* Assets.xcassets in Resources */,
+				0CB29A5226572E3B00833570 /* CategoriesdCollectionViewCell.xib in Resources */,
 				0CAFF86D265590E300010F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +471,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05E84C5D0A776C63A6D6BF1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask-IbtikatTaskUITests/Pods-IbtikatTask-IbtikatTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask-IbtikatTaskUITests/Pods-IbtikatTask-IbtikatTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask-IbtikatTaskUITests/Pods-IbtikatTask-IbtikatTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0611EFF74808E5569B9F00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask/Pods-IbtikatTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask/Pods-IbtikatTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask/Pods-IbtikatTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D1B5B067DFA542D0562CA6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbtikatTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848B53654E5FBDF7ECA06F0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbtikatTask-IbtikatTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E45E0557A6E73F959D82CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IbtikatTask-IbtikatTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD1594CB19AFA7E3A00CD77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask-IbtikatTaskTests/Pods-IbtikatTask-IbtikatTaskTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask-IbtikatTaskTests/Pods-IbtikatTask-IbtikatTaskTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IbtikatTask-IbtikatTaskTests/Pods-IbtikatTask-IbtikatTaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CAFF85E265590E300010F91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAFF86A265590E300010F91 /* ViewController.swift in Sources */,
+				0CB29A46265720F900833570 /* CourseDesignCollectionViewCell.swift in Sources */,
+				0C68276D2656F8BF00EE1946 /* NewEpisodeCollectionCell.swift in Sources */,
+				0CB29A8A2657508300833570 /* ChannelVM.swift in Sources */,
+				0CAFF8C12655960C00010F91 /* BackEndServant.swift in Sources */,
+				0CB29A9D2657AB2B00833570 /* DI.swift in Sources */,
+				0CB29A5126572E3B00833570 /* CategoriesdCollectionViewCell.swift in Sources */,
+				0CB29A7F26574C9D00833570 /* GetChannelsUseCase.swift in Sources */,
+				0CB29A69265743A400833570 /* Response.swift in Sources */,
+				0CAFF86A265590E300010F91 /* ChannelsViewController.swift in Sources */,
+				0CAFF8C02655960C00010F91 /* NetowrkHelper.swift in Sources */,
 				0CAFF866265590E300010F91 /* AppDelegate.swift in Sources */,
+				0CB29A6E2657441C00833570 /* CategoriesResponse.swift in Sources */,
+				0CAFF8C626559DE600010F91 /* GeneralModel.swift in Sources */,
 				0CAFF868265590E300010F91 /* SceneDelegate.swift in Sources */,
+				0CCA54AB2657048A00B11B94 /* Extention.swift in Sources */,
+				0CAFF8BF2655960C00010F91 /* ServiceLayer.swift in Sources */,
+				0CB29A64265741C900833570 /* ICategoriesRepository.swift in Sources */,
+				0CB29AA72657CA1000833570 /* GetNewEpisodeUseCase.swift in Sources */,
+				0CB29A782657495300833570 /* ChannelsResponse.swift in Sources */,
+				0CB29AAC265824D400833570 /* DetailsViewController.swift in Sources */,
+				0CB29A8426574FDE00833570 /* GetCategoriesUseCase.swift in Sources */,
+				0CCA54B226570D1400B11B94 /* ChannelTableViewCell.swift in Sources */,
+				0CB29A5C2657417000833570 /* CategoriesRepository.swift in Sources */,
+				0CB29AA22657C86800833570 /* NewEpisodeResponse.swift in Sources */,
+				0CB29A732657451F00833570 /* CategoriesDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +628,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C185D31265857FB00D11920 /* MockRepository.swift in Sources */,
 				0CAFF87D265590E500010F91 /* IbtikatTaskTests.swift in Sources */,
+				0C185D39265859D600D11920 /* ChannelVMTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +795,7 @@
 		};
 		0CAFF88D265590E500010F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DC380DF557FAE102D5A97F /* Pods-IbtikatTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +815,7 @@
 		};
 		0CAFF88E265590E500010F91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1CFD64FBBA1536A554A889 /* Pods-IbtikatTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +835,7 @@
 		};
 		0CAFF890265590E500010F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004E1AD62271FE40F87D8118 /* Pods-IbtikatTask-IbtikatTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +858,7 @@
 		};
 		0CAFF891265590E500010F91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC21BD04B1A60D76D777FFFD /* Pods-IbtikatTask-IbtikatTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +881,7 @@
 		};
 		0CAFF893265590E500010F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7867D57617AB8D64DA415C6D /* Pods-IbtikatTask-IbtikatTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +902,7 @@
 		};
 		0CAFF894265590E500010F91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E110DE65355F4DED913E8372 /* Pods-IbtikatTask-IbtikatTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
